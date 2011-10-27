@@ -8,8 +8,9 @@ module.exports = {
     for (var i in shit) {
       var sculpture;
       if (shit[i] == '}') {
+          console.log(shit.substr(0, i));
         try {
-          sculpture = JSON.parse(shit.slice(0, i));
+          sculpture = JSON.parse(shit.substr(0, i));
           console.log(sculpture);
         } catch (e) {
           console.log('Coult not parse:');
