@@ -41,6 +41,6 @@ will always return
 ````javascript
 {
   results: [ {}, {}, ... ],
-  remainer: ''
+  remainder: ''
 }
 ````
