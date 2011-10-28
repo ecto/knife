@@ -10,7 +10,7 @@ module.exports = {
     if (easy) {
       return {
         result: [ easy ],
-        remainder: null
+        remainder: ''
       }
     }
 
