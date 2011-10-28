@@ -37,6 +37,7 @@ console.log([
 # knife.parse(uglyStuff, debug = false)
 
 will always return
+
 ````javascript
 {
   results: [ {}, {}, ... ],
